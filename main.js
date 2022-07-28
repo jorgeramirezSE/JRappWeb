@@ -58,7 +58,7 @@ let acceptData = () => {
 }
 
 let createTask = () => {
-
+    tasks.innerHTML = "";
     data.map((x, y) => {
 
         return (tasks.innerHTML += `<div>
